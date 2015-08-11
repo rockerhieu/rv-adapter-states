@@ -2,8 +2,7 @@
 
 ## rv-adapter-states
 
-`RecyclerView.Adapter` is often used to render a list of items from a remote resource, i.e external API. In that case
-you have to deal with different states of the data such as:
+`RecyclerView.Adapter` is often used to render a list of items from a remote resource, i.e external API. In that case you have to deal with different states of the data such as:
 * The data is being fetched (loading state)
 * There is no data (empty state)
 * There was an error when getting the data (error state)
