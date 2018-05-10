@@ -22,6 +22,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
 import com.rockerhieu.rvadapter.states.StatesRecyclerViewAdapter;
 import com.rockerhieu.rvadapter.states.example.adapter.SimpleStringAdapter;
 import com.rockerhieu.rvadapter.states.example.decorator.DividerItemDecoration;

@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.rockerhieu.rvadapter.RecyclerViewAdapterWrapper;
 
 import java.lang.annotation.Retention;
@@ -73,8 +74,9 @@ public class StatesRecyclerViewAdapter extends RecyclerViewAdapterWrapper {
                 return TYPE_EMPTY;
             case STATE_ERROR:
                 return TYPE_ERROR;
+            default:
+                return super.getItemViewType(position);
         }
-        return super.getItemViewType(position);
     }
 
     @Override
