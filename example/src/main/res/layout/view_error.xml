@@ -12,11 +12,11 @@
             android:id="@+id/retry_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Oops, couldn't load data" />
+            android:text="Oops, couldn't load data"/>
 
     <Button
             android:id="@+id/retry_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Retry" />
+            android:text="Retry"/>
 </LinearLayout>
