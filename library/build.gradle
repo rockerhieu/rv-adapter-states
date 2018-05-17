@@ -30,6 +30,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:recyclerview-v7:22.2.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
     api 'com.rockerhieu:rv-adapter:1.2'
 }
