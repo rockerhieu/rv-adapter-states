@@ -73,8 +73,9 @@ public class StatesRecyclerViewAdapter extends RecyclerViewAdapterWrapper {
                 return TYPE_EMPTY;
             case STATE_ERROR:
                 return TYPE_ERROR;
+            default:
+                return super.getItemViewType(position);
         }
-        return super.getItemViewType(position);
     }
 
     @Override
